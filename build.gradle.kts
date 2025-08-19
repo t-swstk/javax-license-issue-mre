@@ -3,7 +3,7 @@ plugins {
     id("org.cyclonedx.bom") version "2.3.0"
 }
 
-group = "com.zuvoo"
+group = "com.tswstk"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -14,7 +14,6 @@ repositories {
 dependencies {
     implementation("org.cyclonedx:cyclonedx-gradle-plugin:2.3.0")
     implementation("javax.annotation:javax.annotation-api:1.3.2")
-    testImplementation(kotlin("test"))
 }
 
 tasks {
